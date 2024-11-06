@@ -262,7 +262,7 @@ PrefabInstance:
     - target: {fileID: 4715154092892405693, guid: 09dc6ff9cefc7634b80b3e292ad6149f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.012
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4715154092892405693, guid: 09dc6ff9cefc7634b80b3e292ad6149f,
         type: 3}
@@ -467,8 +467,47 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6432384415479934113, guid: 09dc6ff9cefc7634b80b3e292ad6149f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3352946666012965443}
+    - targetCorrespondingSourceObject: {fileID: 6432384415479934113, guid: 09dc6ff9cefc7634b80b3e292ad6149f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3352946666012965442}
   m_SourcePrefab: {fileID: 100100000, guid: 09dc6ff9cefc7634b80b3e292ad6149f, type: 3}
+--- !u!1 &3352946666012965441 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6432384415479934113, guid: 09dc6ff9cefc7634b80b3e292ad6149f,
+    type: 3}
+  m_PrefabInstance: {fileID: 3352946666012965440}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3352946666012965442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3352946666012965441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5600151672cfa4282776d5dd219d3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _boltOriginTransform: {fileID: 0}
+  _boltImpactTransform: {fileID: 0}
+  _lightningShapeGenerator: {fileID: 0}
+  _segmentResolution: 6
+  _segmentRadius: 0.0003
+--- !u!33 &3352946666012965443
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3352946666012965441}
+  m_Mesh: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

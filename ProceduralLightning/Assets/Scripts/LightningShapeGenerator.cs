@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using GameDevBuddies.ProceduralLightning;
 using UnityEngine;
 
 public class LightningShapeGenerator : MonoBehaviour
